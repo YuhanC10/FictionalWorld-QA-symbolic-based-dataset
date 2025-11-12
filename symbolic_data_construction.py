@@ -277,8 +277,8 @@ def generate_unified_dataset(total_samples=1000):
 
     final_dataset = {
         "metadata": {
-            "dataset_name": "Unified Counterfactual Mathematics (UCM-1k)",
-            "description": "A dataset where mathematical operators follow a single, globally consistent set of counterfactual rules. Designed to test a model's ability to learn and apply new knowledge.",
+            "dataset_name": "Fictional World QA",
+            "description": "Symbolic based dataset",
             "total_samples": len(dataset),
             "global_rules_applied": {original: new for original, new in GLOBAL_TWISTED_RULES.items()}
         },

@@ -31,8 +31,8 @@ In this fictional world, mathematical operators are redefined as follows:
 ```json
 {
   "metadata": {
-    "dataset_name": "Unified Counterfactual Mathematics (UCM-1k)",
-    "description": "A dataset where mathematical operators follow a single, globally consistent set of counterfactual rules.",
+    "dataset_name": "Fictional World QA",
+    "description": "Symbolic based dataset",
     "total_samples": 1000,
     "global_rules_applied": {
       "+": "*",
